@@ -76,7 +76,7 @@ The snippet sends validated form data via POST request in JSON format.
 
 Example payload:
 
-json
+```json
 {
   "name": "Ivan",
   "email": "test@test.com",
@@ -84,6 +84,7 @@ json
   "message": "Hello",
   "source": "modx_lead_form"
 }
+```
 
 ## Logging
 
