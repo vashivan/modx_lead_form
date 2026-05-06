@@ -39,12 +39,14 @@ snippet/LeadForm.php
 
 ### 3. Create resource/page
 
+3. Create resource/page
+
 Create a MODX Resource and add:
 
 html
 [[!LeadForm]]
 
-<form method="post">
+[<form method="post">
   <input type="text" name="name" placeholder="Name">
   <input type="email" name="email" placeholder="Email">
   <input type="text" name="phone" placeholder="Phone">
@@ -55,7 +57,7 @@ html
   <button type="submit" name="lead_submit" value="1">
     Send
   </button>
-</form>
+</form>]
 
 ### 4. Configure API endpoint
 
